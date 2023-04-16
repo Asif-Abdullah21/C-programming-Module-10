@@ -1,16 +1,54 @@
-//------------------- String Input part 2 ---------------------------
+// Length of a string
 
 #include<stdio.h>
 #include<string.h>
 int main()
 {
-    char str[50];
-    gets(str);
+    char str[100];
+    scanf("%s",&str);
+    int count=0;
 
-    printf("%s",str);
+    for (int i = 0;str[i] !='\0'; i++)
+    {
+        count++;
+    }
+
+   /*int i = 0;
+    while (str[i] !='\0')
+    {
+        count++;
+        i++;
+    } */ 
+    
+    printf("%d\n",count);
+
+    int size = strlen(str); // built in function
+    printf("size : %d\n",size);
+
     
     return 0;
 }
+
+// //------------------- String Input part 2 ---------------------------
+
+// #include<stdio.h>
+// #include<string.h>//gets,fgets egula use er jnno
+// int main()
+// {
+//     char str[50];
+//     //gets(str);
+//     // fgets(str,5,stdin);//it's more safe then gets();
+//     //    printf("%s",str);
+   
+//     fgets(str,15,stdin);
+//     str[13] = '\0';// length a null bosabo
+
+//     // fgets enter ba new line input ney tai last index k null bole dite hbe
+//     printf("%s",str);//Asif Abdullah
+
+    
+//     return 0;
+// }
 
 
 // //------------------- String Input ---------------------------
