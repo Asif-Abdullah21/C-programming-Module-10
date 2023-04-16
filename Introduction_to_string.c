@@ -1,4 +1,33 @@
-//------------------- String Input ---------------------------
+//------------------- String Input part 2 ---------------------------
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char str[50];
+    gets(str);
+
+    printf("%s",str);
+    
+    return 0;
+}
+
+
+// //------------------- String Input ---------------------------
+
+// #include<stdio.h>
+// int main()
+// {
+//     char str[6];// size ek besi nite hbe input er cheye
+//     // scanf("%s",str); // rahat
+//     scanf("%s",&str); // rahat //space er ag prjnto input nibe
+//     printf("%s",str); // rahat
+    
+//     return 0;
+// }
+
+
+
 
 // //--------------- string initialize and print ----------------------
 
