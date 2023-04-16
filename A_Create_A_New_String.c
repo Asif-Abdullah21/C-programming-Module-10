@@ -11,7 +11,7 @@ int main()
     int s2_sz= strlen(s2);
 
     printf("%d %d\n",s1_sz,s2_sz);
-    printf("%s %s",s1,s2);
+    printf("%s %s\n",s1,s2);
     
     return 0;
 }
